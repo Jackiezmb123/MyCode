@@ -9,10 +9,7 @@ class Person5 extends Animal{
 	public void eat(){
 		System.out.println("1");
 	}
-	public void sleep(){
-		System.out.println("2");
-		
-	}
+	
 	public void work(){
 		System.out.println("3");
 	}
@@ -22,9 +19,9 @@ class Person5 extends Animal{
 }
 public class Test02 {
 public static void main(String[] args) {
-	//对象多态表现
+	//露脭脧贸露脿脤卢卤铆脧脰
 	 Animal animal=new Person5();
 	 animal.eat();
-	 animal.sleep();
+	
 }
 }
